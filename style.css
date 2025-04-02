@@ -1,0 +1,17 @@
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+#nav-logo {
+    height: 20px;
+    filter: brightness(0.7);
+    transition: all 0.3s ease-in-out;
+}
+
+#nav-logo:hover {
+    filter: brightness(0.9);
+}
+
+#navbarNav {
+}
