@@ -118,7 +118,41 @@ nav img {
 }
 
 #cpu-room {
-    margin-top: 400px;
+    margin-top: 350px;
+}
+
+#cpu-room h2, #cpu-room h3 {
+    font-weight: 100;
+}
+
+#humanoid {
+    margin-top: 350px;
+}
+
+#lawn-bot-img {
+    object-fit: none;
+    object-position: center -240px;
+}
+
+#phone-hand-img {
+    object-fit: cover;
+}
+
+#trade-in-logo {
+    width: 27px;
+    height: auto;
+    margin-right: 120px;
+    padding-top: 2px;
+}
+
+#trade-in-text {
+    margin-left: 80px;
+    margin-right: 50px;
+    padding-top: 3px;
+}
+
+#phone-hand h3 {
+    font-weight: 100;
 }
 
 .inner-main {
