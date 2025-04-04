@@ -6,13 +6,27 @@ nav {
     letter-spacing: 0.05rem;
 }
 
-#nav-logo {
+nav img {
+    transform: translateY(-3px);
+}
+
+#nav-logo-left {
+    height: 23px;
+    filter: brightness(0.7);
+    transition: all 0.3s ease-in-out;
+}
+
+#nav-logo-left:hover {
+    filter: brightness(0.9);
+}
+
+#nav-logo-center {
     height: 20px;
     filter: brightness(0.7);
     transition: all 0.3s ease-in-out;
 }
 
-#nav-logo:hover {
+#nav-logo-center:hover {
     filter: brightness(0.9);
 }
 
@@ -101,6 +115,10 @@ nav {
 
 #whats-new {
     color: white;
+}
+
+#cpu-room {
+    margin-top: 400px;
 }
 
 .inner-main {
