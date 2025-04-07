@@ -4,9 +4,8 @@
 ---
 ---
 
-#### For this project, I decided to recreate the [apple.com](https://apple.com) website! Ths is a simplified version but I tried to keep the overall look the same and used the Strawberry as the mascot instead of an apple
+## For this project, I decided to recreate the [apple.com](https://apple.com) website! Ths is a simplified version but I tried to keep the overall look the same and used the Strawberry as the mascot instead of an apple
 
----
 ---
 ---
 
@@ -46,7 +45,7 @@ background-color: rgba(50, 50, 50, 0.4);
 backdrop-filter: blur(10px)
 ```
 
-The navbar used mostly Bootstrap classes for styling. The logo itself has an ease-in-out transistion on hover that mimics the Apple logo mouse hover. I added two different `<a>` elements for the logo, one for the centered items of the navbar, and one that appears at the start of the navabr when the collapsible appears on smaller screens. 
+The navbar used mostly Bootstrap classes for styling. The logo itself has an ease-in-out transistion on hover that mimics the Apple logo mouse hover. I added two different `<a>` elements for the logo, one for the centered items of the navbar, and one that appears at the start of the navabr when the collapsible appears on smaller screens.
 
 ---
 ---
@@ -57,7 +56,9 @@ For the landing page/home, I used the apple.com layout and created a couple hero
 
 ```css
 animation: blue-glow 4s infinite;
+```
 
+```css
 @keyframes blue-glow {
     0% {
         filter:brightness(1) contrast(1) saturate(1);
@@ -119,7 +120,7 @@ The buttons on the apple.com were very easy to imitate as they look like Bootstr
 <a href="#" class="btn btn-primary rounded-pill">
 ```
 
-To replicate the gap/gutter styling, I set many of the sections with the `mt-3` Bootstrap class and used this for the main content x gutter:
+To replicate the gap/gutter styling, I set many of the sections with the `mt-3` Bootstrap class and used this for the main content gaps:
 
 ```html
 <div class="row gx-1 gy-4">
