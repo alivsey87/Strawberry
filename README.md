@@ -29,6 +29,9 @@
 
 9. [Style CHoices](#9-style-choices)
 
+---
+---
+
 ## 1. Strawberry
 
 In order to create something similar to apple.com, I decided to use the same concept of a bitten-into fruit to sort of parody the Apple site. I designed a quick logo of a strawberry with a bite (and used that "bitten" portion for the leaf on the top) and rotated the entire logo to the left just to not make it TOO similar. I even included a favicon styled similarly to the Apple favicon.
