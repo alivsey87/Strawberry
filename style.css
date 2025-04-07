@@ -1,3 +1,4 @@
+/* Core */
 h5 {
     font-weight: 100 !important;
     font-size: 1.5rem !important;
@@ -11,6 +12,8 @@ nav {
     letter-spacing: 0.05rem;
 }
 
+
+/* Navbar section */
 nav img {
     transform: translateY(-3px);
 }
@@ -35,6 +38,8 @@ nav img {
     filter: brightness(0.9);
 }
 
+
+/* Hero section */
 #hero-one-text {
     z-index: 2;
 }
@@ -119,6 +124,8 @@ nav img {
     z-index: 1;
 }
 
+
+/* What's New section */
 #whats-new {
     color: white;
 }
@@ -185,9 +192,11 @@ nav img {
     z-index: 1;
 }
 
+
+/* Deals/Carousel section */
 #main-carousel {
-    height: 600px; /* Fixed height for the carousel */
-    margin-bottom: 0; /* Removes any extra margin below the carousel */
+    height: 600px;
+    margin-bottom: 0; 
 }
 
 #main-carousel .carousel-inner {
@@ -213,6 +222,8 @@ nav img {
     transform: translateY(-800px);
 }
 
+
+/* Subscribe Form Section */
 #subscribe {
     background-color: #f5f5f7;
     margin-top: 0;
@@ -222,6 +233,8 @@ nav img {
     color: #1e1e1e;
 }
 
+
+/* Footer Section */
 #footer {
     background-color: #ececec;
     box-shadow: 0px -2px 15px rgb(199, 199, 199);
@@ -232,6 +245,8 @@ nav img {
     color: #1e1e1e;
 }
 
+
+/* Media Queries */
 @media screen and (max-width: 767px) {
     #main-carousel .carousel-item img {
         object-position: -550px -100px;
@@ -244,6 +259,8 @@ nav img {
     }
 }
 
+
+/* Animations */
 @keyframes blue-glow {
     0% {
         filter:brightness(1) contrast(1) saturate(1);
