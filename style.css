@@ -1,3 +1,8 @@
+h5 {
+    font-weight: 100 !important;
+    font-size: 1.5rem !important;
+}
+
 nav {
     background-color: rgba(50, 50, 50, 0.4);
     backdrop-filter: blur(10px);
@@ -192,6 +197,19 @@ nav img {
     height: 100%;
     object-fit: contain;
     object-position: center -200px;
+}
+
+#phone-bright-caption {
+    color: #1e1e1e;
+    transform: translateY(-590px);
+}
+
+#speaker-core-caption {
+    transform: translateY(-720px);
+}
+
+#phone-kbd-caption {
+    transform: translateY(-800px);
 }
 
 #subscribe {
