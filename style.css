@@ -223,7 +223,8 @@ nav img {
 }
 
 #footer {
-    background-color: #f5f5f7;
+    background-color: #ececec;
+    box-shadow: 0px -2px 15px rgb(199, 199, 199);
 }
 
 #footer-text {
