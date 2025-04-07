@@ -68,6 +68,7 @@ nav img {
     object-fit: cover;
     object-position: center 30%;
     z-index: 1;
+    animation: blue-glow 4s infinite;
 }
 
 #hero-two-logo {
@@ -225,6 +226,11 @@ nav img {
     background-color: #f5f5f7;
 }
 
+#footer-text {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
 @media screen and (max-width: 767px) {
     #main-carousel .carousel-item img {
         object-position: -550px -100px;
@@ -234,5 +240,17 @@ nav img {
 @media only screen and (min-width: 768px) and (max-width: 1175px) {
     #main-carousel .carousel-item img {
         object-position: -350px -100px;
+    }
+}
+
+@keyframes blue-glow {
+    0% {
+        filter:brightness(1) contrast(1) saturate(1);
+    }
+    50% {
+        filter:brightness(1.8) contrast(1.2) saturate(1.2);
+    }
+    0% {
+        filter:brightness(1) contrast(1) saturate(1);
     }
 }
