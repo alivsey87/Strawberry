@@ -27,7 +27,9 @@
 
 8. [Footer](#8-footer)
 
-9. [Style CHoices/Bootstrap Components](#9-style-choicesbootstrap-components)
+9. [Style Choices/Bootstrap Components](#9-style-choicesbootstrap-components)
+
+10. [Javascript Functions](#10-javascript-functions)
 
 ---
 ---
@@ -147,5 +149,81 @@ I used the following Bootstrap Components:
 - Scrollspy
 
 All images were downloaded from [UnSplash](https://unsplash.com)!
+
+---
+---
+
+## 10. JavaScript Functions
+
+I created functions that handle subscribing and the cart. I set an array for the subscriber list and an array for the items in the cart:
+
+- Add to sub list
+
+```js
+const addToSubList = (email) => {
+  if (hasSubscribed(email)) console.log("You already subscribed!");
+  else subList.push(email);
+};
+```
+
+This function would take the email provided in the email input as an argument and add it to the `subList` array.
+
+- Has subscribed
+
+```js
+const hasSubscribed = (email) => {
+  if (subList.includes(email)) return true;
+  else return false;
+};
+```
+
+This function is at work in adding a new subscriber, first checking if the email passed as an argument exists in the `subList` or not.
+
+- Unsubscribe
+
+```js
+const unSubscribe = (email) => {
+  if (subList.indexOf(email) !== -1) subList.splice(subList.indexOf(email), 1);
+  else console.log("You are not subscribed!");
+};
+```
+
+This function removes an email passed as an argument from the `subList` array. Would have to figure out another function that provides the email from a user clicking some kind of "Unsubscribe" button.
+
+- Add to cart
+
+```js
+const addToCart = (item) => {
+  cart.push(item.price);
+};
+```
+
+This function takes the "price" key from an item object passes as an argument (when customer clicks a button to buy) and adds it to the `cart` array.
+
+- Remove item from cart
+
+```js
+const removeFromCart = (item) => {
+    cart.splice(cart.indexOf(item), 1)
+};
+```
+
+Removes price of item passed as argument (from customer clicking some kind of "delete" button associated with item) from `cart` array.
+
+- Get total price of cart items
+
+```js
+const getTotalPrice = () => {
+  let price = 0;
+  for (const item of cart) {
+    price += item.price;
+  }
+  return price;
+};
+```
+
+Returns sum of price of all items in `cart` array.
+
+---
 
 [back to top](#frameworks--intro-to-js-project-strawberrycom)
