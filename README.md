@@ -27,7 +27,7 @@
 
 8. [Footer](#8-footer)
 
-9. [Style CHoices](#9-style-choices)
+9. [Style CHoices/Bootstrap Components](#9-style-choicesbootstrap-components)
 
 ---
 ---
@@ -48,14 +48,14 @@ background-color: rgba(50, 50, 50, 0.4);
 backdrop-filter: blur(10px)
 ```
 
-The navbar used mostly Bootstrap classes for styling. The logo itself has an ease-in-out transistion on hover that mimics the Apple logo mouse hover. I added two different `<a>` elements for the logo, one for the centered items of the navbar, and one that appears at the start of the navabr when the collapsible appears on smaller screens.
+The navbar used mostly Bootstrap classes for styling. The logo itself has an ease-in-out transition on hover that mimics the Apple logo mouse hover. I added two different `<a>` elements for the logo, one for the centered items of the navbar, and one that appears at the start of the navbar when the collapsible appears on smaller screens.
 
 ---
 ---
 
 ## 3. Home
 
-For the landing page/home, I used the apple.com layout and created a couple hero sections that advertise the "featured" products. I added a subtle animation to the first hero image jsut for a cool effect to emphasize the blue "glow" of the speaker:
+For the landing page/home, I used the apple.com layout and created a couple hero sections that advertise the "featured" products. I added a subtle animation to the first hero image just for a cool effect to emphasize the blue "glow" of the speaker:
 
 ```css
 animation: blue-glow 4s infinite;
@@ -115,7 +115,7 @@ I added a basic footer with a bit of CSS styling for a box shadow and the name/c
 ---
 ---
 
-## 9. STYLE CHOICES
+## 9. STYLE CHOICES/BOOTSTRAP COMPONENTS
 
 The buttons on the apple.com were very easy to imitate as they look like Bootstrap buttons! For the most part, the styling of the buttons follow:
 
@@ -137,6 +137,14 @@ I used the "Strawberry" logo next to header text to replicate the way Apple did 
         <h2 class="d-inline pt-1 ms-1 mb-0">TECH</h2>
 </div>
 ```
+
+I used the following Bootstrap Components:
+
+- Buttons
+- Carousel
+- Collapse
+- Navbar
+- Scrollspy
 
 All images were downloaded from [UnSplash](https://unsplash.com)!
 
